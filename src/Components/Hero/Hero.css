@@ -1,0 +1,221 @@
+.hero {
+    background-image: linear-gradient(150deg,
+            #281483 15%,
+            #8f6ed5 70%,
+            #d782d9 94%);
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    display: inline-flex;
+    color: white;
+    font-style: italic;
+}
+.nav-logo{
+    margin-left: 120px;
+    text-shadow: 0px 0px 5px white;
+    padding-top: 20px;
+}
+.links{
+    display:  flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 390px;
+    gap: 120px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.links p{
+    color: white;
+    outline: none;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px white;
+    cursor: pointer;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 250px;
+    width: 500px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.hero-image img{
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+    margin-top: -60px;
+    margin-bottom: 10px;
+}
+.hero-heading{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 3px white;
+}
+.hero-detail{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+    text-shadow: 0px 0px 3px white;
+}
+.span-150 {
+    position: absolute;
+    border-radius: 50%;
+    left: -4%;
+    bottom: auto;
+    background: hsla(0, 0%, 100%, 0.1);
+    height: 150px;
+    width: 150px;
+}
+
+.span-50 {
+    position: absolute;
+    border-radius: 50%;
+    right: 4%;
+    top: 10%;
+    background: hsla(0, 0%, 100%, 0.1);
+    height: 50px;
+    width: 50px;
+}
+
+.span-75 {
+    position: absolute;
+    border-radius: 50%;
+    top: 320px;
+    right: 7%;
+    background: hsla(0, 0%, 100%, 0.15);
+    height: 75px;
+    width: 75px;
+}
+
+.span-100 {
+    position: absolute;
+    border-radius: 50%;
+    top: 38%;
+    left: 1%;
+    right: auto;
+    background: hsla(0, 0%, 100%, 0.05);
+    height: 100px;
+    width: 100px;
+}
+
+.span-51 {
+    position: absolute;
+    border-radius: 50%;
+    top: 280px;
+    right: 5.66666%;
+    background: hsla(0, 0%, 100%, 0.3);
+    height: 50px;
+    width: 50px;
+}
+
+.span-52 {
+    position: absolute;
+    border-radius: 50%;
+    bottom: 50%;
+    right: 36%;
+    background: hsla(0, 0%, 100%, 0.04);
+    height: 50px;
+    width: 50px;
+}
+
+.span-53 {
+    position: absolute;
+    border-radius: 50%;
+    bottom: 1%;
+    right: 2%;
+    background: hsla(0, 0%, 100%, 0.1);
+    height: 50px;
+    width: 50px;
+}
+
+.span-76 {
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 44%;
+    left: 10%;
+    right: auto;
+    background: hsla(0, 0%, 100%, 0.15);
+}
+
+.span-101 {
+    position: absolute;
+    border-radius: 50%;
+    bottom: 70px;
+    right: 2%;
+    background: hsla(0, 0%, 100%, 0.2);
+    height: 100px;
+    width: 100px;
+}
+
+.span-102 {
+    position: absolute;
+    border-radius: 50%;
+    bottom: 1%;
+    left: 1%;
+    right: auto;
+    background: hsla(0, 0%, 100%, 0.05);
+    height: 100px;
+    width: 100px;
+}
+
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-right: 600px;
+    color: white;
+}
+
+.github p{
+    font-style: italic;
+    font-size: 20px;
+}
+.github a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -41px;
+    margin-left: 600px;
+    color: white;
+}
+.linkedin p{
+    font-style: italic;
+    font-size: 20px;
+}
+.linkedin a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}

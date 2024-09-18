@@ -1,0 +1,121 @@
+.about{
+    width: 100%;
+    height: 90vh;
+    background-color: whitesmoke;
+    
+}
+
+.about-content{
+    gap: 10px;
+    color: rgb(99, 98, 98);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.about-150 {
+    position: absolute;
+    border-radius: 50%;
+    left: -4%;
+    bottom: -200px;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 150px;
+    width: 150px;
+}
+
+.about-50 {
+    position: absolute;
+    border-radius: 50%;
+    right: 4%;
+    top: 800px;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 50px;
+    width: 50px;
+}
+
+.about-75 {
+    position: absolute;
+    border-radius: 50%;
+    top: 820px;
+    right: 7%;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 75px;
+    width: 75px;
+}
+
+.about-100 {
+    position: absolute;
+    border-radius: 50%;
+    top: 1000px;
+    left: 1%;
+    right: auto;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 100px;
+    width: 100px;
+}
+
+.about-51 {
+    position: absolute;
+    border-radius: 50%;
+    top: 980px;
+    right: 5.66666%;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 50px;
+    width: 50px;
+}
+
+.about-52 {
+    position: absolute;
+    border-radius: 50%;
+    top: 900px;
+    right: 36%;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 50px;
+    width: 50px;
+}
+
+.about-53 {
+    position: absolute;
+    border-radius: 50%;
+    top: 1000px;
+    right: 2%;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.about-101 {
+    position: absolute;
+    border-radius: 50%;
+    bottom: -670px;
+    right: 2%;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 100px;
+    width: 100px;
+}
+
+.about-102 {
+    position: absolute;
+    border-radius: 50%;
+    bottom: -700px;
+    left: 1%;
+    right: auto;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 100px;
+    width: 100px;
+}

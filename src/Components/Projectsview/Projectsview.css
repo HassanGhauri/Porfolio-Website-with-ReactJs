@@ -1,0 +1,164 @@
+.projects{
+    background: whitesmoke;
+    width: 100%;
+    height: 130vh;
+}
+
+.project-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(75, 73, 73);
+}
+.project-intro a{
+    text-decoration: none;
+    color: mediumslateblue;
+}
+.project-intro hr{
+    width: 200px;
+    height: 5px;
+    border: none;
+    background:rgb(75, 73, 73) ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.project-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(230, 228, 228);
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px lightgray;
+}
+.details video{
+    margin-top: -120px;
+}
+.details p{
+    text-align: center;
+    color: rgb(80, 78, 78);
+}
+.details a{
+    text-decoration: none;
+    color: mediumslateblue;
+}
+.details img{
+    margin-top: -80px;
+    padding-bottom: 20px;
+}
+
+.project-150 {
+    position: absolute;
+    border-radius: 50%;
+    left: -4%;
+    bottom: -1480px;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 120px;
+    width: 120px;
+}
+
+.project-50 {
+    position: absolute;
+    border-radius: 50%;
+    right: 4%;
+    top: 2980px;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 50px;
+    width: 50px;
+}
+
+.project-75 {
+    position: absolute;
+    border-radius: 50%;
+    top: 3020px;
+    right: 7%;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 75px;
+    width: 75px;
+}
+
+.project-100 {
+    position: absolute;
+    border-radius: 50%;
+    top: 3000px;
+    left: 1%;
+    right: auto;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 100px;
+    width: 100px;
+}
+
+.project-51 {
+    position: absolute;
+    border-radius: 50%;
+    top: 2120px;
+    right: 2.66666%;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 50px;
+    width: 50px;
+}
+
+.project-52 {
+    position: absolute;
+    border-radius: 50%;
+    top: 2660px;
+    right: 3%;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 50px;
+    width: 50px;
+}
+
+.project-53 {
+    position: absolute;
+    border-radius: 50%;
+    top: 2600px;
+    right: 2%;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.project-101 {
+    position: absolute;
+    border-radius: 50%;
+    bottom: -2070px;
+    left: 2%;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 100px;
+    width: 100px;
+}
+
+.project-102 {
+    position: absolute;
+    border-radius: 50%;
+    bottom: -1950px;
+    left: 1%;
+    right: auto;
+    background: blueviolet;
+    box-shadow: 0px 0px 8px blueviolet;
+    height: 60px;
+    width: 60px;
+}
