@@ -62,7 +62,7 @@
     position: absolute;
     border-radius: 50%;
     left: -4%;
-    bottom: -2700px;
+    bottom: -2500px;
     background: hsla(0, 0%, 100%, 0.1);
     height: 150px;
     width: 150px;
@@ -72,7 +72,7 @@
     position: absolute;
     border-radius: 50%;
     right: 4%;
-    top: 3400px;
+    top: 3140px;
     background: hsla(0, 0%, 100%, 0.1);
     height: 50px;
     width: 50px;
@@ -81,7 +81,7 @@
 .footer-75 {
     position: absolute;
     border-radius: 50%;
-    top: 3520px;
+    top: 3400px;
     right: 7%;
     background: hsla(0, 0%, 100%, 0.15);
     height: 75px;
@@ -91,7 +91,7 @@
 .footer-100 {
     position: absolute;
     border-radius: 50%;
-    top: 3500px;
+    top: 3400px;
     left: 1%;
     right: auto;
     background: hsla(0, 0%, 100%, 0.05);
