@@ -1,7 +1,7 @@
 .projects{
     background: whitesmoke;
     width: 100%;
-    height: 130vh;
+    height: 120vh;
 }
 
 .project-intro{
@@ -36,17 +36,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(230, 228, 228);
+    background: rgba(156, 154, 154, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     flex-direction: column;
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 300px;
     margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px lightgray;
 }
-.details video{
-    margin-top: -120px;
-}
+
 .details p{
     text-align: center;
     color: rgb(80, 78, 78);
@@ -56,7 +57,7 @@
     color: mediumslateblue;
 }
 .details img{
-    margin-top: -80px;
+    margin-top: -20px;
     padding-bottom: 20px;
 }
 
@@ -64,7 +65,7 @@
     position: absolute;
     border-radius: 50%;
     left: -4%;
-    bottom: -1480px;
+    bottom: -1580px;
     background: blueviolet;
     box-shadow: 0px 0px 8px blueviolet;
     height: 120px;
@@ -74,8 +75,8 @@
 .project-50 {
     position: absolute;
     border-radius: 50%;
-    right: 4%;
-    top: 2980px;
+    right: 3%;
+    top: 2900px;
     background: blueviolet;
     box-shadow: 0px 0px 8px blueviolet;
     height: 50px;
@@ -85,8 +86,8 @@
 .project-75 {
     position: absolute;
     border-radius: 50%;
-    top: 3020px;
-    right: 7%;
+    top: 2920px;
+    right: 6%;
     background: blueviolet;
     box-shadow: 0px 0px 8px blueviolet;
     height: 75px;
@@ -96,7 +97,7 @@
 .project-100 {
     position: absolute;
     border-radius: 50%;
-    top: 3000px;
+    top: 2800px;
     left: 1%;
     right: auto;
     background: blueviolet;
@@ -108,7 +109,7 @@
 .project-51 {
     position: absolute;
     border-radius: 50%;
-    top: 2120px;
+    top: 2220px;
     right: 2.66666%;
     background: blueviolet;
     box-shadow: 0px 0px 8px blueviolet;
@@ -119,7 +120,7 @@
 .project-52 {
     position: absolute;
     border-radius: 50%;
-    top: 2660px;
+    top: 2560px;
     right: 3%;
     background: blueviolet;
     box-shadow: 0px 0px 8px blueviolet;
@@ -130,7 +131,7 @@
 .project-53 {
     position: absolute;
     border-radius: 50%;
-    top: 2600px;
+    top: 2500px;
     right: 2%;
     background: blueviolet;
     box-shadow: 0px 0px 8px blueviolet;
@@ -143,7 +144,7 @@
 .project-101 {
     position: absolute;
     border-radius: 50%;
-    bottom: -2070px;
+    bottom: -1870px;
     left: 2%;
     background: blueviolet;
     box-shadow: 0px 0px 8px blueviolet;
@@ -154,7 +155,7 @@
 .project-102 {
     position: absolute;
     border-radius: 50%;
-    bottom: -1950px;
+    bottom: -1750px;
     left: 1%;
     right: auto;
     background: blueviolet;
