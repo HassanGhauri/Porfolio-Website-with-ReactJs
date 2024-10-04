@@ -15,7 +15,13 @@
     flex-direction: column;
     width: 600px;
     margin-top: 60px;
-    margin-left: 200px;
+    margin-left: 400px;
+}
+.about-content ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .about-150 {
     position: absolute;
@@ -76,8 +82,8 @@
 .about-52 {
     position: absolute;
     border-radius: 50%;
-    top: 900px;
-    right: 36%;
+    top: 1500px;
+    left: 6%;
     background: deepskyblue;
     box-shadow: 0px 0px 8px deepskyblue;
     height: 50px;
