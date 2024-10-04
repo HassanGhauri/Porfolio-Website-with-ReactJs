@@ -2,8 +2,8 @@
     width: 100%;
     height: 70vh;
     background-image: linear-gradient(150deg,
-            #281483 15%,
-            #8f6ed5 70%);
+            dodgerblue 15%,
+            deepskyblue 70%);
 }
 
 .footer h1 {

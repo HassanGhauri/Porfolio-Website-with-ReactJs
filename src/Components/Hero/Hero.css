@@ -1,8 +1,8 @@
 .hero {
     background-image: linear-gradient(150deg,
-            #281483 15%,
-            #8f6ed5 70%,
-            #d782d9 94%);
+            deepskyblue 15%,
+            dodgerblue 70%,
+            deepskyblue 94%);
     width: 100%;
     height: 100vh;
 }

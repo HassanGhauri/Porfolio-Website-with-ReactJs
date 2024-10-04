@@ -1,12 +1,13 @@
 .skills {
     background-image: linear-gradient(150deg,
-            #281483 15%,
-            #8f6ed5 70%);
+            dodgerblue 15%,
+            deepskyblue 70%);
     width: 100%;
     height: 80vh;
 }
 
 .skills h1 {
+    padding-top: 5px;
     color: white;
     text-align: center;
     font-style: italic;
