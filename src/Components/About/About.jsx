@@ -42,7 +42,7 @@ const About = () => {
         </ul>
       </dvi>
 
-      <div className="about-spans">
+      {/* <div className="about-spans">
         <span className="about-150"></span>
         <span className="about-50"></span>
         <span className="about-51"></span>
@@ -52,7 +52,7 @@ const About = () => {
         <span className="about-101"></span>
         <span className="about-53"></span>
         <span className="about-102"></span>
-      </div>
+      </div> */}
     </div>
   );
 };

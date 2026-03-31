@@ -41,7 +41,7 @@ const Footer = () => {
           <IoIosArrowUp />
         </span>
       </div>
-      <div className="footer-spans">
+      {/* <div className="footer-spans">
         <span className="footer-150"></span>
         <span className="footer-50"></span>
         <span className="footer-51"></span>
@@ -52,7 +52,7 @@ const Footer = () => {
         <span className="footer-101"></span>
         <span className="footer-53"></span>
         <span className="footer-102"></span>
-      </div>
+      </div> */}
       <div className="profiles">
         <p>View my Profiles on:</p>
         <div>

@@ -6,18 +6,21 @@
     width: 100%;
     height: 100vh;
 }
-.navbar{
+
+.navbar {
     display: inline-flex;
     color: white;
     font-style: italic;
 }
-.nav-logo{
+
+.nav-logo {
     margin-left: 120px;
     text-shadow: 0px 0px 5px white;
     padding-top: 20px;
 }
-.links{
-    display:  flex;
+
+.links {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -26,7 +29,8 @@
     font-size: 20px;
     padding-top: 20px;
 }
-.links p{
+
+.links p {
     color: white;
     outline: none;
     text-decoration: none;
@@ -41,43 +45,58 @@
 }
 
 .hero-content {
+
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
     margin: auto;
-    margin-top: 250px;
-    width: 500px;
-    height: 300px;
+
+    margin-top: 120px;
+
+    width: 850px;
+
+    padding: 40px;
+
     background: rgba(255, 255, 255, 0.2);
+
     border-radius: 16px;
+
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0.5px);
-    -webkit-backdrop-filter: blur(0.5px);
+
+    backdrop-filter: blur(8px);
+
     border: 1px solid rgba(255, 255, 255, 0.1);
+
+    color: white;
+
 }
-.hero-image img{
+
+.hero-image img {
     width: 120px;
     height: 120px;
     border-radius: 80px;
     margin-top: -60px;
     margin-bottom: 10px;
 }
-.hero-heading{
+
+.hero-heading {
     text-align: center;
     font-size: 30px;
     font-style: italic;
     font-weight: 600;
     color: white;
-    text-shadow: 0px 0px 3px white;
 }
-.hero-detail{
+
+.hero-detail {
     text-align: center;
     font-size: 18px;
     color: white;
     font-style: italic;
-    text-shadow: 0px 0px 3px white;
 }
+
 .span-150 {
     position: absolute;
     border-radius: 50%;
@@ -181,7 +200,7 @@
     width: 100px;
 }
 
-.github{
+.github {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,18 +209,19 @@
     color: white;
 }
 
-.github p{
+.github p {
     font-style: italic;
     font-size: 20px;
 }
-.github a{
+
+.github a {
     text-decoration: none;
     color: white;
     font-size: 25px;
     font-weight: 700;
 }
 
-.linkedin{
+.linkedin {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,13 +229,127 @@
     margin-left: 600px;
     color: white;
 }
-.linkedin p{
+
+.linkedin p {
     font-style: italic;
     font-size: 20px;
 }
-.linkedin a{
+
+.linkedin a {
     text-decoration: none;
     color: white;
     font-size: 25px;
     font-weight: 700;
+}
+
+.hero-about {
+
+    margin-top: 15px;
+
+    text-align: center;
+
+    font-style: italic;
+
+}
+
+.hero-about h2 {
+
+    margin-top: 10px;
+
+    text-shadow: 0px 0px 3px white;
+
+}
+
+.hero-about h3 {
+
+    margin-top: 10px;
+
+}
+
+.hero-about ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+.hero-about li {
+
+    margin: 4px 0;
+
+}
+
+.hero-left {
+
+    width: 40%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+
+    padding-right: 25px;
+
+}
+
+.hero-right {
+
+    width: 60%;
+
+    padding-left: 25px;
+
+    font-style: italic;
+
+}
+
+.hero-links {
+
+    display: flex;
+
+    gap: 20px;
+
+    margin-top: 15px;
+
+}
+
+.hero-links a {
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    text-shadow: 0px 0px 3px white;
+
+}
+
+.hero-right h2 {
+    margin-bottom: 8px;
+}
+
+.hero-right h3 {
+
+    margin-top: 12px;
+
+}
+
+.hero-right ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+.hero-right li {
+
+    margin: 3px 0;
+
 }

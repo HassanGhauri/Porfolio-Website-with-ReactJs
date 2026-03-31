@@ -103,7 +103,7 @@ const Skills = () => {
           <p>Selenium</p>
         </div>
       </div>
-      <div className="skills-spans">
+      {/* <div className="skills-spans">
         <span className="skills-150"></span>
         <span className="skills-50"></span>
         <span className="skills-51"></span>
@@ -113,7 +113,7 @@ const Skills = () => {
         <span className="skills-101"></span>
         <span className="skills-53"></span>
         <span className="skills-102"></span>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -92,7 +92,7 @@ const Projectsview = () => {
           </p>
         </div>
       </div>
-      <div className="project-spans">
+      {/* <div className="project-spans">
         <span className="project-150"></span>
         <span className="project-50"></span>
         <span className="project-51"></span>
@@ -102,7 +102,7 @@ const Projectsview = () => {
         <span className="project-101"></span>
         <span className="project-53"></span>
         <span className="project-102"></span>
-      </div>
+      </div> */}
     </div>
   );
 };
