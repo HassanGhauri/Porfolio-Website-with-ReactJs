@@ -3,3 +3,25 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+background:#001E2B;
+font-family: 'Segoe UI', sans-serif;
+}
+
+a:hover{
+color:#13AA52;
+transition:.3s;
+}
+
+.skills-detail:hover,
+.details:hover,
+.hero-content:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 0 20px rgba(0,237,100,0.4);
+
+transition:.3s;
+
+}

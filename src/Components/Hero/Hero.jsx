@@ -62,8 +62,9 @@ const Hero = () => {
             <h2>About</h2>
 
             <p>
-              Full Stack Developer specializing in MERN, PHP/Laravel and NextJs.
-              Passionate about building scalable web applications.
+              Software engineer who specializes in various web development technologies, tools and
+frameworks such as MERN stack, MEAN stack, NestJs and NextJs. Also have
+experience in mobile app development with React Native and Flutter.
             </p>
 
             <h3>Education</h3>
