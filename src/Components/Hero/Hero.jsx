@@ -6,13 +6,23 @@ import image from "../../assets/My photo-edited.jpg";
 import { PortfolioContext } from "../../Context/PortfolioContext";
 
 const Hero = () => {
-  const { Skillsref, Projectref, Contactref, Homeref } =
+  const { Aboutref ,Skillsref, Projectref, Contactref, Homeref } =
     useContext(PortfolioContext);
 
   return (
     <div ref={Homeref} className="hero" id="home">
       <div className="navbar">
         <div className="links">
+          <p
+            onClick={() => {
+              Aboutref.current.scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+          >
+            About
+          </p>
+
           <p
             onClick={() => {
               Skillsref.current.scrollIntoView({

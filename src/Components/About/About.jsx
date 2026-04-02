@@ -9,15 +9,14 @@ const About = () => {
       <dvi className="about-content">
         <h1>About</h1>
         <p>
-          Hi, I am Muhammad Hassan Ghauri, a Full Stack Web Developer who
-          specializes in MERN stack, PHP/Laravel and NextJs.{" "}
+          Hi, I am Muhammad Hassan Ghauri, a Software Engineer who
+          specializes in MERN/Mean stack, PHP/Laravel and NextJs.{" "}
         </p>
         <h1>My Education</h1>
         <p>
-          I am studying Bachelors of Science in Computer Science(BSCS) from
+          I am studied Bachelors of Science in Computer Science(BSCS) from
           Umaer Basha Institute of Information Technology (UBIT), University Of
-          Karachi and I am currently in fourth year and final year of my degree
-          program.
+          Karachi.
         </p>
         <h1>My Experience & Certifications</h1>
         <h3>Work Experience: </h3>
@@ -26,10 +25,18 @@ const About = () => {
           FullStack Intern (3 months) <br /> Technet Cloud <br /> 06/2024 -
           08/2024,
         </p>
+        <p >
+          {" "}
+          Software Engineer <br /> Regex Global Limited <br /> 02/2025 -
+          present,
+        </p>
         <h3>Certifications: </h3>
         <p>
           MERN Stack (ES6 + ReactJs) <br />
           (05/2023 - 01/2024)
+        </p>
+        <p>
+          Introduction to Mobile Development <br />
         </p>
         <h1>My Expertise</h1>
         <ul>
