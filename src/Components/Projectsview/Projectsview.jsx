@@ -79,18 +79,6 @@ const Projectsview = () => {
             </a>
           </p>
         </div>
-        <div className="details">
-          <a href="">
-            <img src={img04} style={{ width: "280px", height: "180px" }} />
-          </a>
-          <p>ZipFile Extractor </p>
-          <p>
-            Github Link:{" "}
-            <a href="https://github.com/HassanGhauri/ZipFileExtractor">
-              https://github.com/HassanGhauri/ZipFileExtractor
-            </a>
-          </p>
-        </div>
       </div>
       {/* <div className="project-spans">
         <span className="project-150"></span>
