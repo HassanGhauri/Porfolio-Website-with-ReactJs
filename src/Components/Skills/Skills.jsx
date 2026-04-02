@@ -1,24 +1,24 @@
 /* eslint-disable no-unused-vars */
 import React, { useContext } from "react";
 import "./Skills.css";
-import img1 from "../../assets/beautiful-soup.png";
-import img2 from "../../assets/css3-logo.png";
-import img3 from "../../assets/Flasklogo.svg";
-import img4 from "../../assets/html-logo.png";
+import img1 from "../../assets/angular_gradient.png";
+import img2 from "../../assets/flutter-logo.png";
+import img3 from "../../assets/nestjs-logo.png";
+import img4 from "../../assets/nginx.png";
 import img5 from "../../assets/javascript.png";
-import img6 from "../../assets/laravel-2.svg";
+import img6 from "../../assets/github.png";
 import img7 from "../../assets/logo-mysql.png";
 import img8 from "../../assets/mongodb-icon.svg";
 import img9 from "../../assets/nextjs.svg";
 import img10 from "../../assets/nodejs.png";
-import img11 from "../../assets/numpylogo.svg";
-import img12 from "../../assets/Pandas Logo Vector.png";
+import img11 from "../../assets/gitlab.png";
+import img12 from "../../assets/wordpress.png";
 import img13 from "../../assets/php-logo-20745.png";
-import img14 from "../../assets/postgresql-icon.svg";
-import img15 from "../../assets/python-requests-logo.png";
-import img16 from "../../assets/python-seeklogo.svg";
+import img14 from "../../assets/jquery.png";
+import img15 from "../../assets/primeng.png";
+import img16 from "../../assets/react-native.png";
 import img17 from "../../assets/reactJs.png";
-import img18 from "../../assets/selenium-1.svg";
+import img18 from "../../assets/tailwind-css.png";
 import { PortfolioContext } from "../../Context/PortfolioContext";
 
 const Skills = () => {
@@ -31,20 +31,20 @@ const Skills = () => {
       <div className="skills-content">
         <div className="skills-detail">
           <img src={img1} alt="" />
-          <p>Beautiful soup</p>
+          <p>Angular</p>
         </div >
 
         <div className="skills-detail">
           <img src={img2} alt="" />
-          <p>Css3</p>
+          <p>Flutter</p>
         </div>
         <div className="skills-detail">
           <img src={img3} alt="" />
-          <p>Flask</p>
+          <p>NestJs</p>
         </div>
         <div className="skills-detail">
           <img src={img4} alt="" />
-          <p>HTML5</p>
+          <p>Nginx</p>
         </div>
         <div className="skills-detail">
           <img src={img5} alt="" />
@@ -52,7 +52,7 @@ const Skills = () => {
         </div>
         <div className="skills-detail">
           <img src={img6} alt="" />
-          <p>Laravel</p>
+          <p>Github</p>
         </div>
         <div className="skills-detail">
           <img src={img7} alt="" />
@@ -72,11 +72,11 @@ const Skills = () => {
         </div>
         <div className="skills-detail">
           <img src={img11} alt="" />
-          <p>Numpy</p>
+          <p>Gitlab</p>
         </div>
         <div className="skills-detail">
-          <img src={img12} alt="" style={{width:"80px",height:"40px"}}/>
-          <p>Pandas</p>
+          <img src={img12} alt="" />
+          <p>WordPress</p>
         </div>
         <div className="skills-detail">
           <img src={img13} alt="" />
@@ -84,23 +84,23 @@ const Skills = () => {
         </div>
         <div className="skills-detail">
           <img src={img14} alt="" />
-          <p>PostgreSql</p>
+          <p>Jquery</p>
         </div>
         <div className="skills-detail">
           <img src={img15} alt="" />
-          <p>Python-Requests</p>
+          <p>PrimeNG</p>
         </div>
         <div className="skills-detail">
           <img src={img16} alt="" />
-          <p>Python</p>
+          <p>React Native</p>
         </div>
         <div className="skills-detail">
           <img src={img17} alt="" />
           <p>ReactJs</p>
         </div>
         <div className="skills-detail">
-          <img src={img18} alt="" style={{width:"89px"}}/>
-          <p>Selenium</p>
+          <img src={img18} alt=""/>
+          <p>Tailwind CSS</p>
         </div>
       </div>
       {/* <div className="skills-spans">

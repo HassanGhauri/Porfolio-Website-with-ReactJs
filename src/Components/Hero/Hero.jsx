@@ -71,10 +71,6 @@ experience in mobile app development with React Native and Flutter.
 
             <p>BS Computer Science UBIT – University of Karachi</p>
 
-            <h3>Experience</h3>
-
-            <p>Full Stack Intern Technet Cloud 06/2024 – 08/2024</p>
-
             <h3>Expertise</h3>
 
             <ul>
