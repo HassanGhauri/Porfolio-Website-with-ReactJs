@@ -6,7 +6,7 @@ import image from "../../assets/My photo-edited.jpg";
 import { PortfolioContext } from "../../Context/PortfolioContext";
 
 const Hero = () => {
-  const { Aboutref ,Skillsref, Projectref, Contactref, Homeref } =
+  const { Aboutref, Skillsref, Projectref, Contactref, Homeref } =
     useContext(PortfolioContext);
 
   return (
@@ -65,16 +65,16 @@ const Hero = () => {
             <p className="hero-heading">Muhammad Hassan Ghauri</p>
 
             <p className="hero-detail">Software Engineer</p>
-
           </div>
 
           <div className="hero-right">
             <h2>About</h2>
 
             <p>
-              Software engineer who specializes in various web development technologies, tools and
-frameworks such as MERN stack, MEAN stack, NestJs and NextJs. Also have
-experience in mobile app development with React Native and Flutter.
+              Software engineer who specializes in various web development
+              technologies, tools and frameworks such as MERN stack, MEAN stack,
+              NestJs and NextJs. Also have experience in mobile app development
+              with React Native and Flutter.
             </p>
 
             <h3>Education</h3>
@@ -104,7 +104,10 @@ experience in mobile app development with React Native and Flutter.
       <div className="linkedin">
         <p>
           Here's my
-          <a href="https://www.linkedin.com/in/muhammad-hassan-ghauri-80090b247"> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/muhammad-hassan-ghauri-80090b247">
+            {" "}
+            LinkedIn
+          </a>
         </p>
       </div>
     </div>

@@ -22,98 +22,122 @@ import img18 from "../../assets/tailwind-css.png";
 import { PortfolioContext } from "../../Context/PortfolioContext";
 
 const Skills = () => {
-  const {Skillsref} =useContext(PortfolioContext);
+  const { Skillsref } = useContext(PortfolioContext);
+
   return (
     <div ref={Skillsref} className="skills" id="skill">
       <h1>My Skills</h1>
       <hr />
 
+      {/* Frontend */}
+      <h2 className="skills-category">Frontend Technologies</h2>
       <div className="skills-content">
         <div className="skills-detail">
           <img src={img1} alt="" />
           <p>Angular</p>
-        </div >
+        </div>
 
-        <div className="skills-detail">
-          <img src={img2} alt="" />
-          <p>Flutter</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img3} alt="" />
-          <p>NestJs</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img4} alt="" />
-          <p>Nginx</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img5} alt="" />
-          <p>Javascript</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img6} alt="" />
-          <p>Github</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img7} alt="" />
-          <p>Mysql</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img8} alt="" />
-          <p>Mongo db</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img9} alt="" />
-          <p>NextJs</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img10} alt="" />
-          <p>Nodejs</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img11} alt="" />
-          <p>Gitlab</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img12} alt="" />
-          <p>WordPress</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img13} alt="" />
-          <p>Php</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img14} alt="" />
-          <p>Jquery</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img15} alt="" />
-          <p>PrimeNG</p>
-        </div>
-        <div className="skills-detail">
-          <img src={img16} alt="" />
-          <p>React Native</p>
-        </div>
         <div className="skills-detail">
           <img src={img17} alt="" />
           <p>ReactJs</p>
         </div>
+
         <div className="skills-detail">
-          <img src={img18} alt=""/>
+          <img src={img9} alt="" />
+          <p>NextJs</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img5} alt="" />
+          <p>Javascript</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img14} alt="" />
+          <p>Jquery</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img18} alt="" />
           <p>Tailwind CSS</p>
         </div>
+
+        <div className="skills-detail">
+          <img src={img15} alt="" />
+          <p>PrimeNG</p>
+        </div>
       </div>
-      {/* <div className="skills-spans">
-        <span className="skills-150"></span>
-        <span className="skills-50"></span>
-        <span className="skills-51"></span>
-        <span className="skills-75"></span>
-        <span className="skills-100"></span>
-        <span className="skills-52"></span>
-        <span className="skills-101"></span>
-        <span className="skills-53"></span>
-        <span className="skills-102"></span>
-      </div> */}
+
+      {/* Backend */}
+      <h2 className="skills-category">Backend Technologies</h2>
+      <div className="skills-content">
+        <div className="skills-detail">
+          <img src={img10} alt="" />
+          <p>NodeJs</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img3} alt="" />
+          <p>NestJs</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img13} alt="" />
+          <p>PHP</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img12} alt="" />
+          <p>WordPress</p>
+        </div>
+      </div>
+
+      {/* Databases */}
+      <h2 className="skills-category">Databases</h2>
+      <div className="skills-content">
+        <div className="skills-detail">
+          <img src={img7} alt="" />
+          <p>MySQL</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img8} alt="" />
+          <p>MongoDB</p>
+        </div>
+      </div>
+
+      {/* Mobile */}
+      <h2 className="skills-category">Mobile Development</h2>
+      <div className="skills-content">
+        <div className="skills-detail">
+          <img src={img2} alt="" />
+          <p>Flutter</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img16} alt="" />
+          <p>React Native</p>
+        </div>
+      </div>
+
+      {/* DevOps & Tools */}
+      <h2 className="skills-category">DevOps & Tools</h2>
+      <div className="skills-content">
+        <div className="skills-detail">
+          <img src={img4} alt="" />
+          <p>Nginx</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img6} alt="" />
+          <p>Github</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img11} alt="" />
+          <p>Gitlab</p>
+        </div>
+      </div>
     </div>
   );
 };

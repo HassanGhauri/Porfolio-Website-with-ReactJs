@@ -1,10 +1,8 @@
 .skills {
-    background-image: linear-gradient(
-        150deg,
-        #001E2B,
-        #023430,
-        #00684A
-    );
+    background-image: linear-gradient(150deg,
+            #001E2B,
+            #023430,
+            #00684A);
     width: 100%;
     min-height: 80vh;
 
@@ -20,7 +18,16 @@
 
 .skills h1 {
     padding-top: 5px;
-     color:#00ED64;
+    color: #00ED64;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0px 0px 3px white;
+}
+
+.skills-category {
+    color: #00ED64;
+    margin-top: 40px;
+    margin-bottom: 10px;
     text-align: center;
     font-style: italic;
     text-shadow: 0px 0px 3px white;
@@ -38,7 +45,7 @@
 
 .skills-detail {
     text-shadow: 0px 0px 3px white;
-     color:#E8F6F3;
+    color: #E8F6F3;
     font-style: italic;
     font-size: 15px;
     text-align: center;
@@ -48,12 +55,12 @@
     flex-direction: column;
     width: 100px;
     height: 120px;
-     background: rgba(0,237,100,0.08);
+    background: rgba(0, 237, 100, 0.08);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-     border:1px solid rgba(0,237,100,0.25);
+    border: 1px solid rgba(0, 237, 100, 0.25);
 }
 
 .skills-content {

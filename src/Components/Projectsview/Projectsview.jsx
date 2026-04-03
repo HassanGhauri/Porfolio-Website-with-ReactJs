@@ -41,7 +41,7 @@ const Projectsview = () => {
           <p>
             Github Link: <br />
             <a href="https://github.com/HassanGhauri/Ecommerce_Website">
-              https://github.com/HassanGhauri/Ecommerce_Website
+              https://github.com/HassanGhauri/Ecommerce-Website
             </a>
           </p>
         </div>

@@ -1,19 +1,17 @@
 .footer {
     width: 100%;
     height: 70vh;
-    background-image: linear-gradient(
-        150deg,
-        #001E2B 10%,
-        #023430 70%
-    );
+    background-image: linear-gradient(150deg,
+            #001E2B 10%,
+            #023430 70%);
 }
 
 .footer h1 {
     padding-top: 50px;
     text-align: center;
-     color:#00ED64;
+    color: #00ED64;
     font-style: italic;
-    text-shadow:0px 0px 6px #00ED64;
+    text-shadow: 0px 0px 6px #00ED64;
 }
 
 .footer hr {
@@ -32,19 +30,19 @@
     padding: 10px;
     width: 320px;
     height: 220px;
-    background: rgba(0,237,100,0.08);
+    background: rgba(0, 237, 100, 0.08);
     border-radius: 12px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(0.3px);
     -webkit-backdrop-filter: blur(0.3px);
-    border:1px solid rgba(0,237,100,0.3);
+    border: 1px solid rgba(0, 237, 100, 0.3);
     font-size: 18px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:#E8F6F3;
+    color: #E8F6F3;
     font-style: italic;
     text-shadow: 0px 0px 4px white;
 }
@@ -56,7 +54,8 @@
     font-size: 40px;
     font-weight: 700;
 }
-.arrow span{
+
+.arrow span {
     cursor: pointer;
 }
 
@@ -110,25 +109,28 @@
     height: 50px;
     width: 50px;
 }
-.profiles{
+
+.profiles {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.profiles p{
+.profiles p {
     color: white;
     font-size: 20px;
     font-style: italic;
     text-shadow: 0px 0px 4px white;
 }
-.profiles div{
+
+.profiles div {
     margin-top: 10px;
 }
-.profiles span{
+
+.profiles span {
     cursor: pointer;
     font-size: 30px;
-    color:#00ED64;
+    color: #00ED64;
     padding: 10px;
 }

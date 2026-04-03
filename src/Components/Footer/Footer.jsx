@@ -56,12 +56,16 @@ const Footer = () => {
       <div className="profiles">
         <p>View my Profiles on:</p>
         <div>
-          <a href="https://github.com/HassanGhauri"><span>
-            <FaGithub />
-          </span></a>
-          <a href="https://www.linkedin.com/in/muhammad-hassan-ghauri-80090b247"><span>
-            <FaLinkedin />
-          </span></a>
+          <a href="https://github.com/HassanGhauri">
+            <span>
+              <FaGithub />
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/in/muhammad-hassan-ghauri-80090b247">
+            <span>
+              <FaLinkedin />
+            </span>
+          </a>
         </div>
       </div>
     </div>
