@@ -19,6 +19,8 @@ import img15 from "../../assets/primeng.png";
 import img16 from "../../assets/react-native.png";
 import img17 from "../../assets/reactJs.png";
 import img18 from "../../assets/tailwind-css.png";
+import img19 from "../../assets/spring-boot.png";
+import img20 from "../../assets/java.png";
 import { PortfolioContext } from "../../Context/PortfolioContext";
 
 const Skills = () => {
@@ -79,6 +81,16 @@ const Skills = () => {
         <div className="skills-detail">
           <img src={img3} alt="" />
           <p>NestJs</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img19} alt="" />
+          <p>Spring Boot</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img20} alt="" />
+          <p>Java</p>
         </div>
 
         <div className="skills-detail">
