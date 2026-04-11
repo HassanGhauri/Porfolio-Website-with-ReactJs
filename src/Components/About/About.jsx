@@ -31,7 +31,7 @@ const About = () => {
         <p className="about-intro">
           Hi, I am <span>Muhammad Hassan Ghauri</span>, Software engineer who
           specializes in various web development technologies, tools and
-          frameworks such as MERN stack, MEAN stack, NestJs and NextJs. Also
+          frameworks such as MERN stack, MEAN stack, NestJs, NextJs and Spring Boot. Also
           have experience in mobile app development with React Native and
           Flutter.
         </p>
