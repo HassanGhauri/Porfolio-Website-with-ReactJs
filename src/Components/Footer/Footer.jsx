@@ -9,26 +9,62 @@ import { IoIosArrowUp } from "react-icons/io";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { PortfolioContext } from "../../Context/PortfolioContext";
+
 const Footer = () => {
   const { Contactref, Homeref } = useContext(PortfolioContext);
+
   return (
     <div ref={Contactref} className="footer" id="contact">
       <h1>Contact</h1>
       <hr />
-      <div className="contact-detail">
-        <p>
-          <RiContactsBook2Fill /> Contact me
-        </p>
-        <p>
-          <MdEmail /> hassanghauri14@gmail.com
-        </p>
-        <p>
-          <MdSmartphone /> 03349505644
-        </p>
-        <p>
-          <IoLocationSharp /> Karachi, Pakistan
-        </p>
+
+      <div className="footer-container">
+
+        {/* CONTACT SECTION */}
+        <div className="contact-detail">
+          <h3><RiContactsBook2Fill /> Get in Touch</h3>
+
+          <p>
+            <MdEmail />
+            <a href="mailto:hassanghauri14@gmail.com">
+              hassanghauri14@gmail.com
+            </a>
+          </p>
+
+          <p>
+            <MdSmartphone />
+            <a href="tel:03349505644">
+              03349505644
+            </a>
+          </p>
+
+          <p>
+            <IoLocationSharp /> Karachi, Pakistan
+          </p>
+        </div>
+
+        {/* SOCIAL SECTION */}
+        <div className="footer-social">
+          <h3>Connect with me</h3>
+
+          <div className="profiles">
+            <a href="https://github.com/HassanGhauri" target="_blank" rel="noreferrer">
+              <FaGithub />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/muhammad-hassan-ghauri-80090b247"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+          </div>
+        </div>
+
       </div>
+
+      {/* SCROLL TO TOP */}
       <div
         className="arrow"
         onClick={() => {
@@ -37,36 +73,12 @@ const Footer = () => {
           });
         }}
       >
-        <span>
-          <IoIosArrowUp />
-        </span>
+        <IoIosArrowUp />
       </div>
-      {/* <div className="footer-spans">
-        <span className="footer-150"></span>
-        <span className="footer-50"></span>
-        <span className="footer-51"></span>
-        <span className="footer-75"></span>
-        <span className="footer-100"></span>
-        <span className="footer-76"></span>
-        <span className="footer-52"></span>
-        <span className="footer-101"></span>
-        <span className="footer-53"></span>
-        <span className="footer-102"></span>
-      </div> */}
-      <div className="profiles">
-        <p>View my Profiles on:</p>
-        <div>
-          <a href="https://github.com/HassanGhauri">
-            <span>
-              <FaGithub />
-            </span>
-          </a>
-          <a href="https://www.linkedin.com/in/muhammad-hassan-ghauri-80090b247">
-            <span>
-              <FaLinkedin />
-            </span>
-          </a>
-        </div>
+
+      {/* FOOTER BOTTOM */}
+      <div className="footer-bottom">
+        <p>© 2026 Muhammad Hassan Ghauri. All rights reserved.</p>
       </div>
     </div>
   );

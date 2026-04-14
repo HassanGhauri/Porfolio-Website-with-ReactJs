@@ -4,6 +4,8 @@ import React, { useContext } from "react";
 import "./Hero.css";
 import image from "../../assets/My photo-edited.jpg";
 import { PortfolioContext } from "../../Context/PortfolioContext";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Hero = () => {
   const { Aboutref, Skillsref, Projectref, Contactref, Homeref } =
@@ -65,6 +67,21 @@ const Hero = () => {
             <p className="hero-heading">Muhammad Hassan Ghauri</p>
 
             <p className="hero-detail">Software Engineer</p>
+            <div className="profiles">
+                    <p>View my Profiles on:</p>
+                    <div>
+                      <a href="https://github.com/HassanGhauri">
+                        <span>
+                          <FaGithub />
+                        </span>
+                      </a>
+                      <a href="https://www.linkedin.com/in/muhammad-hassan-ghauri-80090b247">
+                        <span>
+                          <FaLinkedin />
+                        </span>
+                      </a>
+                    </div>
+                  </div>
           </div>
 
           <div className="hero-right">
@@ -92,23 +109,6 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-      </div>
-
-      <div className="github">
-        <p>
-          Here's my
-          <a href="https://github.com/HassanGhauri"> Github</a>
-        </p>
-      </div>
-
-      <div className="linkedin">
-        <p>
-          Here's my
-          <a href="https://www.linkedin.com/in/muhammad-hassan-ghauri-80090b247">
-            {" "}
-            LinkedIn
-          </a>
-        </p>
       </div>
     </div>
   );
