@@ -8,6 +8,10 @@ import img03 from "../../assets/HRMS1.png";
 import img04 from "../../assets/ZIPFILEEXTRACTOR.png";
 import img1 from "../../assets/QuizApp.png";
 import img2 from "../../assets/WeatherApp.png";
+import img8 from "../../assets/mongodb-icon.svg";
+import img10 from "../../assets/nodejs.png";
+import img17 from "../../assets/reactJs.png";
+import img7 from "../../assets/logo-mysql.png";
 import { PortfolioContext } from "../../Context/PortfolioContext";
 const Projectsview = () => {
   const { Projectref } = useContext(PortfolioContext);
@@ -28,22 +32,38 @@ const Projectsview = () => {
           <img src={img01} style={{ width: "280px", height: "180px" }} />
           <p>Attendence App</p>
           <p>
-            Github Link: <br />
+            Github Link: {" "}
             <a href="https://github.com/HassanGhauri/Attendence-App">
-              https://github.com/HassanGhauri/Attendence-App
+              Attendence-App
             </a>
           </p>
+          <div className="tech-stack">
+    <p>Tech Stack</p>
+    <div className="tech-icons">
+      <img src={img17} alt="react" />
+      <img src={img10} alt="node" />
+      <img src={img8} alt="mongodb" />
+    </div>
+  </div>
         </div>
 
         <div className="details">
           <img src={img02} style={{ width: "280px", height: "180px" }} />
           <p>E-commerce Website</p>
           <p>
-            Github Link: <br />
+            Github Link: {" "}
             <a href="https://github.com/HassanGhauri/Ecommerce_Website">
-              https://github.com/HassanGhauri/Ecommerce-Website
+              Ecommerce-Website
             </a>
           </p>
+          <div className="tech-stack">
+    <p>Tech Stack</p>
+    <div className="tech-icons">
+      <img src={img17} alt="react" />
+      <img src={img10} alt="node" />
+      <img src={img8} alt="mongodb" />
+    </div>
+  </div>
         </div>
         <div className="details">
           <img src={img03} style={{ width: "280px", height: "180px" }} />
@@ -51,9 +71,17 @@ const Projectsview = () => {
           <p>
             Github Link:{" "}
             <a href="https://github.com/HassanGhauri/HRMS">
-              https://github.com/HassanGhauri/HRMS
+              HR managment system
             </a>
           </p>
+          <div className="tech-stack">
+    <p>Tech Stack</p>
+    <div className="tech-icons">
+      <img src={img17} alt="react" />
+      <img src={img10} alt="node" />
+      <img src={img7} alt="mysql" />
+    </div>
+  </div>
         </div>
         <div className="details">
           <a href="">
@@ -63,21 +91,33 @@ const Projectsview = () => {
           <p>
             Github Link:{" "}
             <a href="https://github.com/HassanGhauri/React-Quiz-App">
-              https://github.com/HassanGhauri/React-Quiz-App
+              Quiz-App
             </a>
           </p>
+          <div className="tech-stack">
+    <p>Tech Stack</p>
+    <div className="tech-icons">
+      <img src={img17} alt="react" />
+    </div>
+  </div>
         </div>
         <div className="details">
           <a href="">
             <img src={img2} style={{ width: "280px", height: "180px" }} />
           </a>
-          <p>Weather App </p>
+          <p>Weather App With React</p>
           <p>
             Github Link:{" "}
             <a href="https://github.com/HassanGhauri/React-Weather-App">
-              https://github.com/HassanGhauri/React-Weather-App
+              Weather-App
             </a>
           </p>
+          <div className="tech-stack">
+    <p>Tech Stack</p>
+    <div className="tech-icons">
+      <img src={img17} alt="react" />
+    </div>
+  </div>
         </div>
       </div>
       {/* <div className="project-spans">
