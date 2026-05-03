@@ -21,6 +21,8 @@ import img17 from "../../assets/reactJs.png";
 import img18 from "../../assets/tailwind-css.png";
 import img19 from "../../assets/spring-boot.png";
 import img20 from "../../assets/java.png";
+import img21 from "../../assets/c-sharp-logo.png";
+import img22 from "../../assets/dot-net-icon.png";
 import { PortfolioContext } from "../../Context/PortfolioContext";
 
 const Skills = () => {
@@ -29,7 +31,6 @@ const Skills = () => {
   return (
     <div ref={Skillsref} className="skills" id="skill">
       <h1>My Skills</h1>
-      <hr />
 
       {/* Frontend */}
       <h2 className="skills-category">Frontend Technologies</h2>
@@ -89,8 +90,18 @@ const Skills = () => {
         </div>
 
         <div className="skills-detail">
+          <img src={img22} alt="" />
+          <p>.Net</p>
+        </div>
+
+        <div className="skills-detail">
           <img src={img20} alt="" />
           <p>Java</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img21} alt="" />
+          <p>C#</p>
         </div>
 
         <div className="skills-detail">
