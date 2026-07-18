@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div ref={Contactref} className="footer" id="contact">
       <h1>Contact</h1>
-
+<hr />
       <div className="footer-container">
 
         {/* CONTACT SECTION */}

@@ -9,7 +9,7 @@ import img5 from "../../assets/javascript.png";
 import img6 from "../../assets/github.png";
 import img7 from "../../assets/logo-mysql.png";
 import img8 from "../../assets/mongodb-icon.svg";
-import img9 from "../../assets/nextjs.svg";
+import img9 from "../../assets/vuejs.png";
 import img10 from "../../assets/nodejs.png";
 import img11 from "../../assets/gitlab.png";
 import img12 from "../../assets/wordpress.png";
@@ -23,6 +23,8 @@ import img19 from "../../assets/spring-boot.png";
 import img20 from "../../assets/java.png";
 import img21 from "../../assets/c-sharp-logo.png";
 import img22 from "../../assets/dot-net-icon.png";
+import img23 from "../../assets/primevue.png";
+import img24 from "../../assets/Laravel.png";
 import { PortfolioContext } from "../../Context/PortfolioContext";
 
 const Skills = () => {
@@ -31,6 +33,7 @@ const Skills = () => {
   return (
     <div ref={Skillsref} className="skills" id="skill">
       <h1>My Skills</h1>
+      <hr />
 
       {/* Frontend */}
       <h2 className="skills-category">Frontend Technologies</h2>
@@ -47,7 +50,7 @@ const Skills = () => {
 
         <div className="skills-detail">
           <img src={img9} alt="" />
-          <p>NextJs</p>
+          <p>VueJs</p>
         </div>
 
         <div className="skills-detail">
@@ -68,6 +71,11 @@ const Skills = () => {
         <div className="skills-detail">
           <img src={img15} alt="" />
           <p>PrimeNG</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img23} alt="" />
+          <p>PrimeVue</p>
         </div>
       </div>
 
@@ -92,6 +100,11 @@ const Skills = () => {
         <div className="skills-detail">
           <img src={img22} alt="" />
           <p>.Net</p>
+        </div>
+
+        <div className="skills-detail">
+          <img src={img24} alt="" />
+          <p>Laravel</p>
         </div>
 
         <div className="skills-detail">
