@@ -68,35 +68,35 @@ const Hero = () => {
 
             <p className="hero-detail">Software Engineer</p>
             <div className="profiles">
-                    <p>View my Profiles on:</p>
-                    <div>
-                      <a href="https://github.com/HassanGhauri">
-                        <span>
-                          <FaGithub />
-                        </span>
-                      </a>
-                      <a href="https://www.linkedin.com/in/muhammad-hassan-ghauri-80090b247">
-                        <span>
-                          <FaLinkedin />
-                        </span>
-                      </a>
-                    </div>
-                  </div>
+              <p>View my Profiles on:</p>
+              <div>
+                <a href="https://github.com/HassanGhauri">
+                  <span>
+                    <FaGithub />
+                  </span>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-hassan-ghauri-80090b247">
+                  <span>
+                    <FaLinkedin />
+                  </span>
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className="hero-right">
             <h2>About</h2>
 
             <p>
-              Software engineer who specializes in various web development
-              technologies, tools and frameworks such as MERN stack, Angular,
-              NestJs, NextJs, Spring Boot and Dot Net. Also have experience in mobile app development
-              with React Native and Flutter.
+              Software Engineer with expertise in full-stack web and mobile
+              development using Angular, Vue.js, React, NestJS, ASP.NET, Spring
+              Boot, Laravel, Flutter, and React Native with a focus on scalable
+              systems and clean software architecture.
             </p>
 
             <h3>Education</h3>
 
-            <p>BS Computer Science UBIT – University of Karachi</p>
+            <p>BS Computer Science – UBIT, University of Karachi</p>
 
             <h3>Expertise</h3>
 

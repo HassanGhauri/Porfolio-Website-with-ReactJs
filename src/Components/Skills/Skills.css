@@ -1,8 +1,5 @@
 .skills {
-    background-image: linear-gradient(150deg,
-            #001E2B,
-            #023430,
-            #00684A);
+    background: transparent;
     width: 100%;
     min-height: 80vh;
 

@@ -1,9 +1,6 @@
 /* GLOBAL */
 .hero {
-    background-image: linear-gradient(150deg,
-            #001E2B 10%,
-            #023430 60%,
-            #00684A 100%);
+   background: transparent;
     width: 100%;
     min-height: 100vh;
     padding: 20px;

@@ -27,13 +27,13 @@ const About = () => {
     <div ref={Aboutref} className="about">
       <div className="about-content">
         <h1>About Me</h1>
-
+        <hr />
         <p className="about-intro">
-          Hi, I am <span>Muhammad Hassan Ghauri</span>, Software engineer who
-          specializes in various web development technologies, tools and
-          frameworks such as MERN stack, Angular, NestJs, NextJs, Spring Boot and Dot Net. Also
-          have experience in mobile app development with React Native and
-          Flutter.
+          Hi, I am <span>Muhammad Hassan Ghauri</span>, Software Engineer with
+          expertise in full-stack web and mobile development using Angular,
+          Vue.js, React, NestJS, ASP.NET, Spring Boot, Laravel, Flutter, and
+          React Native with a focus on scalable systems and clean software
+          architecture.
         </p>
 
         <h2>Education</h2>

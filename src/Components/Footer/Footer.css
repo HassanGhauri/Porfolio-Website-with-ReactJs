@@ -2,9 +2,7 @@
 .footer {
     width: 100%;
     padding: 40px 20px;
-    background-image: linear-gradient(150deg,
-            #001E2B 10%,
-            #023430 70%);
+   background: transparent;
     padding: 40px 20px;
     box-sizing: border-box;
 }

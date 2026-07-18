@@ -7,7 +7,14 @@
 body {
     background: #001E2B;
     font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(
+        180deg,
+        #001E2B 0%,
+        #023430 45%,
+        #014230 100%
+    );
 }
+
 
 a:hover {
     color: #13AA52;
