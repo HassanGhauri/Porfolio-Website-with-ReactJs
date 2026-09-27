@@ -16,7 +16,6 @@ const Footer = () => {
   return (
     <div ref={Contactref} className="footer" id="contact">
       <h1>Contact</h1>
-<hr />
       <div className="footer-container">
 
         {/* CONTACT SECTION */}
@@ -26,7 +25,7 @@ const Footer = () => {
           <p>
             <MdEmail />
             <a href="mailto:hassanghauri14@gmail.com">
-              hassanghauri14@gmail.com
+              hassan.ghauri04@gmail.com
             </a>
           </p>
 

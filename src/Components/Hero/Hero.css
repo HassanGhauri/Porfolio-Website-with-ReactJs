@@ -5,6 +5,7 @@
     min-height: 100vh;
     padding: 20px;
     box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 237, 100, 0.3);
 }
 
 /* NAVBAR */
@@ -207,6 +208,23 @@
 
 .profiles span:hover {
     transform: scale(1.2);
+}
+
+/* RESUME BUTTON */
+.resume-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    background-color: #00ED64;
+    color: #101820;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.resume-button:hover {
+    opacity: 0.85;
 }
 
 /* ========================= */

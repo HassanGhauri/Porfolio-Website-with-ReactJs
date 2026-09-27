@@ -3,6 +3,7 @@
 import React, { useContext } from "react";
 import "./Hero.css";
 import image from "../../assets/My photo-edited.jpg";
+import resume from "../../assets/Hassan's Resume.pdf";
 import { PortfolioContext } from "../../Context/PortfolioContext";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
@@ -67,6 +68,15 @@ const Hero = () => {
             <p className="hero-heading">Muhammad Hassan Ghauri</p>
 
             <p className="hero-detail">Software Engineer</p>
+
+            <a
+              className="resume-button"
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Resume
+            </a>
             <div className="profiles">
               <p>View my Profiles on:</p>
               <div>

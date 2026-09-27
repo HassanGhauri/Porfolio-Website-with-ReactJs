@@ -22,7 +22,6 @@ const Projectsview = () => {
     <div ref={Projectref} className="projects" id="projects">
       <div className="project-intro">
         <h1>My projects</h1>
-        <hr />
         <p>
           My Github Link:{" "}
           <a href="https://github.com/HassanGhauri">
