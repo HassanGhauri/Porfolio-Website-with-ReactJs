@@ -26,7 +26,7 @@ const Footer = () => {
           <p>
             <MdEmail />
             <a href="mailto:hassanghauri14@gmail.com">
-              hassanghauri14@gmail.com
+              hassan.ghauri04@gmail.com
             </a>
           </p>
 

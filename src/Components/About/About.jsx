@@ -36,38 +36,121 @@ const About = () => {
           architecture.
         </p>
 
-        <h2>Education</h2>
+        <div className="about-highlights">
+          <section className="about-group">
+            <h2>Education</h2>
+            <div className="about-card education-card">
+              <div className="education-list">
+                <article className="education-entry">
+                  <div className="education-heading">
+                    <h3>Bachelor of Computer Science</h3>
+                    <time dateTime="2021-01">Jan 2021 – Jan 2025</time>
+                  </div>
+                  <p>University of Karachi (UBIT)</p>
+                  <p className="education-location">Karachi, Pakistan</p>
+                </article>
+                <article className="education-entry">
+                  <div className="education-heading">
+                    <h3>F.Sc. Pre-Engineering</h3>
+                    <time dateTime="2018-01">Jan 2018 – Jan 2020</time>
+                  </div>
+                  <p>Aisha Bawany Government Boys College, Karachi</p>
+                  <p className="education-location">Karachi, Pakistan</p>
+                </article>
+              </div>
+            </div>
+          </section>
 
-        <div className="about-card">
-          <p>
-            Bachelor of Science in Computer Science (BSCS)
-            <br />
-            Umaer Basha Institute of Information Technology (UBIT)
-            <br />
-            University Of Karachi
-          </p>
+          <section className="about-group">
+            <h2>Work Experience</h2>
+            <div className="experience-list">
+              <article className="experience-entry">
+                <div className="experience-heading">
+                  <h3>Software Engineer</h3>
+                  <time dateTime="2025-02">Feb 2025 – Present</time>
+                </div>
+                <p>Regex Global Limited</p>
+                <ul className="experience-points">
+                  <li>
+                    Maintained and enhanced existing EdTech, eCommerce, and
+                    project management applications using Angular, NestJS,
+                    Yii2, Flutter, jQuery, and PHP.
+                  </li>
+                  <li>
+                    Customized WordPress themes and plugins for an eCommerce
+                    store, improving its styling, layout, responsiveness, and
+                    features.
+                  </li>
+                  <li>
+                    Handled SQL migrations, SMTP email content and template
+                    updates, REST API integrations, responsive improvements,
+                    and performance optimizations to reduce load in EdTech
+                    applications.
+                  </li>
+                  <li>
+                    Worked on existing single-agent and multi-agent AI systems,
+                    refining system prompts, data flow, and AI responses.
+                  </li>
+                </ul>
+              </article>
+
+              <article className="experience-entry">
+                <div className="experience-heading">
+                  <h3>Full Stack Intern</h3>
+                  <time dateTime="2024-06">Jun 2024 – Aug 2024</time>
+                </div>
+                <p>Technet Cloud</p>
+                <ul className="experience-points">
+                  <li>
+                    Built a responsive MERN eCommerce application with an admin
+                    product-management panel, Multer image uploads, and a
+                    customer storefront with authentication, cart, and
+                    purchasing.
+                  </li>
+                  <li>
+                    Built a MERN student attendance system with an admin panel
+                    for student record management and a student portal for
+                    logging in and marking attendance.
+                  </li>
+                  <li>
+                    Built an employee management system with MySQL, Node.js,
+                    React, and Express, including employee administration,
+                    configurable fields, and a portal for viewing personal
+                    records.
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </section>
         </div>
 
-        <h2>Work Experience</h2>
+        <h2>Expertise</h2>
 
-        <div className="about-card">
-          <p>
-            <b>FullStack Intern</b>
-            <br />
-            Technet Cloud
-            <br />
-            06/2024 – 08/2024
-          </p>
-        </div>
+        <div className="expertise-container">
+          <article className="expertise-card">
+            <h3>Full-stack development</h3>
+            <p>Building complete web applications across frontend and backend.</p>
+          </article>
 
-        <div className="about-card">
-          <p>
-            <b>Software Engineer</b>
-            <br />
-            Regex Global Limited
-            <br />
-            02/2025 – Present
-          </p>
+          <article className="expertise-card">
+            <h3>Responsive interfaces</h3>
+            <p>Creating clear, adaptable experiences for different screen sizes.</p>
+          </article>
+
+          <article className="expertise-card">
+            <h3>Backend and API integration</h3>
+            <p>Developing server-side features and connecting REST APIs.</p>
+          </article>
+
+          <article className="expertise-card">
+            <h3>Database and performance work</h3>
+            <p>Handling SQL changes and improving application load performance.</p>
+          </article>
+
+          <article className="expertise-card">
+            <h3>Mobile development</h3>
+            <p>Building mobile applications with Flutter and React Native.</p>
+          </article>
         </div>
 
         <h2>Certifications</h2>
@@ -87,22 +170,6 @@ const About = () => {
             <img src={img1} alt="" />
             <p>WordPress (Digiskills)</p>
           </div>
-        </div>
-
-        <h2>My Expertise</h2>
-
-        <div className="expertise-container">
-          <div className="expertise-card">Software Engineering</div>
-
-          <div className="expertise-card">Full Stack Development</div>
-
-          <div className="expertise-card">Frontend Development</div>
-
-          <div className="expertise-card">Backend Development</div>
-
-          <div className="expertise-card">Mobile App Development</div>
-
-          <div className="expertise-card">REST APIs</div>
         </div>
       </div>
 
