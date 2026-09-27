@@ -27,7 +27,6 @@ const About = () => {
     <div ref={Aboutref} className="about">
       <div className="about-content">
         <h1>About Me</h1>
-        <hr />
         <p className="about-intro">
           Hi, I am <span>Muhammad Hassan Ghauri</span>, Software Engineer with
           expertise in full-stack web and mobile development using Angular,

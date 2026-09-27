@@ -33,7 +33,6 @@ const Skills = () => {
   return (
     <div ref={Skillsref} className="skills" id="skill">
       <h1>My Skills</h1>
-      <hr />
 
       {/* Frontend */}
       <h2 className="skills-category">Frontend Technologies</h2>

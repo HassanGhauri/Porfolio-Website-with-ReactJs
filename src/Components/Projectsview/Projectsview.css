@@ -8,16 +8,6 @@
     position: relative;
 }
 
-.projects hr {
-    width: 170px;
-    height: 5px;
-    border-radius: 2px;
-    border: none;
-    background-color: white;
-    box-shadow: 0px 0px 3px white;
-    margin: auto;
-}
-
 /* INTRO */
 .project-intro {
     padding-top: 20px;

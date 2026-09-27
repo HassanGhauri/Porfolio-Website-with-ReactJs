@@ -31,16 +31,6 @@
     text-shadow: 0px 0px 3px white;
 }
 
-.skills hr {
-    width: 170px;
-    height: 5px;
-    border-radius: 2px;
-    border: none;
-    background-color: white;
-    box-shadow: 0px 0px 3px white;
-    margin: auto;
-}
-
 .skills-detail {
     text-shadow: 0px 0px 3px white;
     color: #E8F6F3;

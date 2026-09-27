@@ -15,16 +15,6 @@
     text-shadow: 0px 0px 6px #00ED64;
 }
 
-.footer hr {
-    border: none;
-    border-radius: 5px;
-    width: 120px;
-    height: 4px;
-    background: white;
-    margin: 10px auto 30px auto;
-    box-shadow: 0px 0px 4px white;
-}
-
 /* MAIN CONTAINER */
 .footer-container {
     display: flex;
@@ -144,10 +134,6 @@
 @media (max-width: 600px) {
     .footer h1 {
         font-size: 22px;
-    }
-
-    .footer hr {
-        width: 100px;
     }
 
     .contact-detail {
