@@ -22,8 +22,7 @@ a:hover {
 }
 
 .skills-detail:hover,
-.details:hover,
-.hero-content:hover {
+.details:hover {
 
     transform: translateY(-5px);
 
